@@ -1,0 +1,99 @@
+
+
+
+
+header,
+section,
+footer {
+  overflow-x: visible;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.item,
+.item__portfolio,
+.item__list,
+.navlistpoftfolio,
+.nav-st-portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.item,
+.item div,
+.item__portfolio {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow-x: visible;
+}
+
+.conteiner {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 80px;
+  margin: 0 auto;
+  overflow-x: visible;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+body {
+  font-family: "roboto";
+  overflow-x: hidden;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footer {
+  padding: 60px 0;
+}
+
+.footer ul {
+  margin: 0;
+}
+
+.stroki {
+  resize: none;
+}
+
+.text2 {
+  padding-left: 30px;
+}
+
+.underlining__border {
+  border: 1px solid #ececec;
+}

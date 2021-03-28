@@ -1,0 +1,391 @@
+/*socseci*/
+/*footer*/
+.social__networks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .social__networks--main {
+    border: none;
+    width: 43px;
+    height: 43px;
+    border-radius: 43px;
+    background-color: $colorW;;
+    -webkit-transition: $colorKit;
+    transition: $colorKit;
+  }
+  
+  .social__networks--main:hover {
+    background-color:$color;
+  }
+  
+  .social__networks--posicion {
+    width: 32px;
+    height: 32px;
+    position: relative;
+    top: 5px;
+    left: 4px;
+    right: 0px;
+    bottom: 0px;
+  }
+  
+  .social__networks--link {
+    background: #AFB1B8;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    right: 0px;
+    bottom: 0px;
+  }
+  
+  .social__footer {
+    background: #2f303a;
+  }
+  
+  .social__footer--adress {
+    font-weight: 400;
+    margin-bottom: 9px;
+  }
+  
+  .social__footer--style {
+    font-weight: 400;
+    color: $colorClear;
+    margin-top: 20px;
+    margin-bottom: 9px;
+    font-family: $font;;
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  .social__footer--nih {
+    color: $colorlab;
+    text-decoration: none;
+  }
+  
+  .bottom__connected {
+    position: relative;
+    top: -128px;
+    bottom: 0px;
+    left: 450px;
+    right: 0px;
+  }
+  
+  .social__networks--mainPortfolio {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 55px;
+    background-color: #404046;
+    -webkit-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: 250ms;
+            transition-duration: 250ms;
+    -webkit-transition-timing-function: $cubeblue;
+            transition-timing-function: $cubeblue;
+  }
+  
+  .social__networks--main {
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 55px;
+    -webkit-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: 250ms;
+            transition-duration: 250ms;
+    -webkit-transition-timing-function: $cubeblue;
+            transition-timing-function: $cubeblue;
+  }
+  
+  .social__networks--main:hover {
+    background-color:$color;
+  }
+  
+  .bottom__connected--text {
+    color: $colorW;;
+    Font: $font;;
+    height: 700;
+  }
+  
+  .mailling__list {
+    position: relative;
+    width: 750px;
+    height: 140px;
+    left: 750px;
+    bottom: 245px;
+  }
+  
+  .mailling__list--portfolio {
+    position: relative;
+    position: relative;
+    width: 750px;
+    height: 140px;
+    left: 250px;
+    bottom: 100px;
+  }
+  
+  .mailling__list--text {
+    color: $colorW;;
+    font-family: $font;;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: left;
+  }
+  
+  .mailling__list--form {
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    color: $colorlab;
+    font-size: 18px;
+    border: 4px;
+    outline: none;
+  }
+  
+  .mailling__list--form:focus {
+    background:$color;
+  }
+  
+  .mailling__list--bottom {
+    position: relative;
+    left: 10px;
+    background:$color;
+    height: 60px;
+    width: 205px;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .mailling__list--signature {
+    color: $colorW;;
+    text-align: center;
+  }
+  
+  .mailling__list--telegrams {
+    position: relative;
+    top: -40px;
+    left: 82px;
+    bottom: 0px;
+    width: 35px;
+    height: 35px;
+  }
+  
+  /*modal*/
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: $P;
+    height: $P;
+    background: rgba(0, 0, 0, 0.2);
+  }
+  
+  .backdrop.is-hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  
+  .backdrop__main {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    height: 530px;
+    width: 528px;
+    border-radius: 4px;
+    background-color: $colorClear;
+  }
+  
+  .backdrop__main--text {
+    margin-top: 45px;
+    font-family: $font;;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0.03em;
+    text-align: center;
+  }
+  
+  .backdrop__main--form {
+    width: 448px;
+    height: 332px;
+  }
+  
+  .form__field {
+    position: relative;
+  }
+  
+  .form__input {
+    position: absolute;
+    left: 39px;
+    top: 20px;
+    Width: 448px;
+    Height: 35px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    outline: none;
+    padding-left: 32px;
+  }
+  
+  .form__input:focus {
+    border: 1px solid$color;
+  }
+  
+  .form__input:focus ~ .ico {
+    fill:$color;
+  }
+  
+  .form__input--text {
+    position: absolute;
+    top: 0px;
+    left: 40px;
+    color: $colorgray;
+    font-size: 12px;
+  }
+  
+  .for__input--double {
+    position: absolute;
+    left: 39px;
+    top: 170px;
+    Width: 448px;
+    Height: 35px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    outline: none;
+    padding-left: 32px;
+  }
+  
+  .for__input--double:focus ~ .ico-1 {
+    fill:$color;
+  }
+  
+  .form-input2:focus ~ .ico-2 {
+    fill:$color;
+  }
+  
+  .for__input--double:focus {
+    border: 1px solid$color;
+  }
+  
+  .for__input--doubletext {
+    position: absolute;
+    top: 150px;
+    left: 39px;
+    color: $colorgray;
+    font-size: 12px;
+  }
+  
+  .mailling__list--style {
+    height: 60px;
+    width: 288px;
+    background: #2f303a;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .mailling__list--style:hover {
+    border: 1px solid$color;
+  }
+  
+  .form__input--low {
+    position: absolute;
+    left: 39px;
+    top: 235px;
+    Width: 448px;
+    Height: 35px;
+    border-radius: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    outline: none;
+    padding-left: 32px;
+  }
+  
+  .form__input--low:focus {
+    border: 1px solid$color;
+  }
+  
+  .form__input--mail {
+    position: absolute;
+    left: 39px;
+    top: 215px;
+    Width: 448px;
+    Height: 40px;
+    color: $colorgray;
+    font-size: 12px;
+  }
+  
+  .icons {
+    width: 12px;
+    height: 12px;
+  }
+  
+  .iconstele {
+    position: absolute;
+    top: 25%;
+    left: 82%;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .ico {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+  }
+  
+  .ico-1 {
+    position: absolute;
+    top: 178px;
+    left: 50px;
+  }
+  
+  .ico-2 {
+    position: absolute;
+    top: 244px;
+    left: 50px;
+  }
+  
+  .ico:hover {
+    fill:$color;
+  }
+  
+  .ico-1:hover {
+    fill:$color;
+  }
+  
+  .ico-2:hover {
+    fill:$color;
+  }
+  
+  .main__comment--text {
+    position: absolute;
+    left: 39px;
+    top: 275px;
+    Width: 448px;
+    Height: 40px;
+    color: $colorgray;
+    font-size: 12px;
+  }
+  
+  .main__comment {
+    position: absolute;
+    left: 39px;
+    top: 300px;
+    Width: 448px;
+    Height: 100px;
+    font-size: 14px;
+    border-radius: 4px;
+    color: rgba(117, 117, 117, 0.5);
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    outline: none;
+  }

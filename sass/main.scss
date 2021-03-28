@@ -1,0 +1,107 @@
+@import 'base/_defaults';
+@import 'utils/varibales'; 
+@import 'utils/mixins';
+@import 'components/_footer';
+@import 'components/_header';
+@import 'components/_middle';
+
+
+
+
+$colorW:white;
+$color: #2196f3;  
+$colorgray:#757575;
+$col:black;
+$colorTheSet:0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+$colorKit:250ms cubic-bezier(0.4, 0, 0.2, 1);
+$colorDrab:0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+$cube:1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+$cubedice: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+$cubedie:0px 1px 1px 0px rgba(0, 0, 0, 0.12);          
+$cubecub:fill 150ms cubic-bezier(0.4, 0, 0.2, 1);
+$colorcub:rgba(47, 48, 58, 0.8);
+$cubeblue:cubic-bezier(0.4, 0, 0.2, 1);
+$P:100%;
+$colorlab:rgba(255, 255, 255, 0.6);
+$gradient:webkit-gradient(linear, left top, right top, ), rgba(235, 10, 10, 0.6);
+$linergradient:linear-gradient(to right), rgba(235, 10, 10, 0.6);
+$colorbord: 1px solid #EEEEEE;
+$font:Roboto;
+$colorClear:#ffffff;
+$colorE:1px solid #eee;
+$dividi:calc(33.3% - 20px);
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main__comment:focus {
+  border: 1px solid$color;
+}
+
+.consent__text {
+  position: absolute;
+  left: 39px;
+  top: 408px;
+}
+
+.consent__text--style {
+  position: absolute;
+  left: 60px;
+  top: 408px;
+}
+
+.pol1 {
+  padding: 19px;
+  padding-right: 0px;
+}
+
+.command__close {
+  position: absolute;
+  top: 8px;
+  right: 10px;
+  background-color: $colorClear;
+  border: none;
+  width: 35px;
+  height: 35px;
+  border: none;
+}
+
+.command__close--style {
+  width: 35px;
+  height: 35px;
+}
+
+.command__close--style:hover {
+  fill:$color;
+}
+
+.consent__text--srting {
+  color: #188ce8;
+  text-decoration: underline;
+}
+
+.consent__sending {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  top: 450px;
+  left: 30%;
+  background-color: #188ce8;
+  border: none;
+  border-radius: 4px;
+}
+
+.consent__sending--text {
+  font-size: 16px;
+  color: $colorW;;
+}
+/*# sourceMappingURL=main.css.map */

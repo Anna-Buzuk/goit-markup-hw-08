@@ -1,0 +1,390 @@
+/*contajner3*/
+.tasks {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 94px;
+  }
+  
+  .tasks__group {
+    border: none;
+    background-color: $colorW;;
+  }
+  
+  .tasks__group--text {
+    font-family: $font;;
+    font-weight: 700;
+    color: #212121;
+    width: 270px;
+    padding-bottom: 10px;
+    font-family: $font;;
+    font-style: normal;
+    font-size: 15px;
+    text-transform: uppercase;
+  }
+  
+  .tasks__group--make {
+    font-family: $font;;
+    font-weight: 400;
+    color: $colorgray;
+    size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    width: 270px;
+    height: 75px;
+    font-size: 14px;
+    line-height: 24px;
+    position: relative;
+    letter-spacing: 0.03em;
+  }
+  
+  .slip {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    background-color: $colorClear;
+    margin: 0 auto;
+  }
+  
+  .slip__combining {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: auto;
+    width: 1200px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0px 15px 15px 15px;
+  }
+  
+  .slip__combining--row {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border: 1px solid #eee;
+    margin-bottom: 30px;
+    width: calc(33.3% - 20px);
+    background: $colorClear;
+    border: $colorbord;
+  }
+  
+  .slip__combining--row:hover {
+    background: $colorClear;
+    border: $colorbord;
+    -webkit-box-shadow: $colorDrab;
+            box-shadow: $colorDrab;
+    -webkit-transition: color $colorKit, background-color $colorKit;
+    transition: color $colorKit, background-color $colorKit;
+    -webkit-box-shadow: $colorKit;
+            box-shadow: $colorKit;
+  }
+  
+  .slip__products {
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: $cube;
+            box-shadow: $cube;
+    -webkit-box-shadow: $cubedice;
+            box-shadow: $cubedice;
+    -webkit-box-shadow: $cubedie;
+            box-shadow: $cubedie;
+  }
+  
+  .slip__thumb {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slip__thumb--akcion {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    color: #ebe7e7;
+    font-family: $font;;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+    padding: 40px;
+    opacity: 0;
+    -webkit-transition: -webkit-transform $colorKit;
+    transition: -webkit-transform $colorKit;
+    transition: transform $colorKit;
+    transition: transform $colorKit, -webkit-transform $colorKit;
+  }
+  
+  .slip__thumb::before {
+    display: inline block;
+    content: '';
+    position: absolute;
+    width: $P;;
+    height: $P;;
+    background: rgba(33, 155, 243, 0.9);
+    -webkit-transition: -webkit-transform $colorKit;
+    transition: -webkit-transform $colorKit;
+    transition: transform $colorKit;
+    transition: transform $colorKit, -webkit-transform $colorKit;
+    opacity: 1;
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    transition: transform $colorKit;
+  }
+  
+  .slip__thumb:hover::before {
+    opacity: 1;
+  }
+  
+  .slip__products:hover .slip__thumb--akcion {
+    opacity: 1;
+  }
+  
+  .slip__products:hover .slip__thumb::before {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+  
+  .slip__combining--name {
+    background-color: $colorW;;
+    padding: 24px;
+    margin: 0 auto;
+    width: auto;
+  }
+  
+  .slip__combining--term {
+    font-family: $font;;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+  }
+  
+  .slip__combining--page {
+    width: auto;
+    color: $colorgray;
+  }
+  
+  /*container 4*/
+  .base {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+    font-family: $font;;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+  }
+  
+  .base__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .base__card--photo {
+    margin-bottom: 94px;
+  }
+  
+  .base__card--application {
+    height: 70px;
+    width: 370px;
+    margin: 0 auto;
+    background: $colorcub;
+    position: relative;
+    bottom: 89px;
+  }
+  
+  .base__card--applicationone {
+    height: 70px;
+    width: 370px;
+    margin: 0 auto;
+    background: $colorcub;
+    position: relative;
+    bottom: 89px;
+    left: 15px;
+  }
+  
+  .base__card--caption {
+    font-family: $font;;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $colorClear;
+    position: relative;
+    top: 25px;
+  }
+  
+  .base__card--phototwo {
+    margin-left: 30px;
+  }
+  
+  /*container 5*/
+  .section__komanda {
+    background-color: #f5f4fa;
+    padding-bottom: 94px;
+  }
+  
+  .section__komanda--name {
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 94px;
+    text-align: center;
+    font-family: $font;;
+  }
+  
+  .gallery__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .gallery__card--name {
+    background-color: $colorW;;
+    padding: 30px;
+  }
+  
+  .gallery__card--walk {
+    text-align: center;
+  }
+  
+  .gallery__card--profession {
+    background-color: $colorW;;
+    text-align: center;
+  }
+  
+  /*conteiner 6*/
+  .regular__customers {
+    height: 370px;
+    margin: 0 auto;
+    overflow-x: visible;
+  }
+  
+  .regular__customers--position {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 94px;
+    overflow-x: visible;
+  }
+  
+  .regular__customers--text {
+    font-family: $font;;
+    font-size: 36px;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  
+  .regular__customers--logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin: 0 auto;
+  }
+  
+  .regular__customers--main {
+    margin: 0 10px;
+    background-color: $colorW;;
+    border: 2px solid #AFB1B8;
+    border-radius: 4px;
+    -webkit-transition: fill $colorKit;
+    transition: fill $colorKit;
+    width: 170px;
+    overflow: hidden;
+  }
+  
+  .regular__customers--main:hover {
+    border: 2px solid$color;
+    fill:$color;
+  }
+  
+  .regular__customers--drawing {
+    Width: 170px;
+    height: 94px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    right: 0px;
+    bottom: 2px;
+    overflow: hidden;
+  }
+  
+  .regular__customers--pattern {
+    Width: 170px;
+    height: 65px;
+    position: relative;
+    top: 10px;
+    left: 7px;
+    right: 0px;
+    bottom: 0px;
+  }
+  
+  .regular__customers--figure {
+    Width: 170px;
+    height: 65px;
+    position: relative;
+    top: 10px;
+    left: 0x;
+    right: 0px;
+    bottom: 0px;
+  }
+  
+  .regular__customers--painting {
+    Width: 170px;
+    height: 60px;
+    position: relative;
+    top: 10px;
+    left: 0px;
+    right: 0px;
+    bottom: 10px;
+  }
+  
+  .regular__customers--image {
+    Width: 170px;
+    height: 60px;
+    position: relative;
+    top: 10px;
+    left: -15px;
+    right: 0px;
+    bottom: 0px;
+  }
+  
+  .regular__customers--change {
+    fill: #AFB1B8;
+  }
+  
+  .regular__customers--change:hover {
+    fill:$color;
+    -webkit-transition: $cubecub;
+    transition: $cubecub;
+  }
+  
