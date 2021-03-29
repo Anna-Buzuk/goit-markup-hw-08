@@ -1,3 +1,57 @@
+@import 'base/_defaults';
+@import 'utils/varibales'; 
+@import 'utils/mixins';
+@import 'components/_footer';
+@import 'components/_header';
+@import 'components/_middle';
+
+
+
+
+$colorW:white;
+$color: #2196f3;  
+$colorgray:#757575;
+$col:black;
+$colorTheSet:0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+$colorKit:250ms cubic-bezier(0.4, 0, 0.2, 1);
+$colorDrab:0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+$cube:1px 4px 6px 0px rgba(0, 0, 0, 0.16);
+$cubedice: 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+$cubedie:0px 1px 1px 0px rgba(0, 0, 0, 0.12);          
+$cubecub:fill 150ms cubic-bezier(0.4, 0, 0.2, 1);
+$colorcub:rgba(47, 48, 58, 0.8);
+$cubeblue:cubic-bezier(0.4, 0, 0.2, 1);
+$P:100%;
+$colorlab:rgba(255, 255, 255, 0.6);
+$gradient:webkit-gradient(linear, left top, right top, ), rgba(235, 10, 10, 0.6);
+$linergradient:linear-gradient(to right), rgba(235, 10, 10, 0.6);
+$colorbord: 1px solid #EEEEEE;
+$font:Roboto;
+$colorClear:#ffffff;
+$colorE:1px solid #eee;
+$dividi:calc(33.3% - 20px);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 header,
   section,
   footer {
@@ -5,7 +59,7 @@ header,
   }
   
   ul {
-    padding-left: 0;
+    padding-left: 0 ;
   }
   
   li {
@@ -53,7 +107,7 @@ header,
   }
   
   .footer {
-    background-color: #2f303a;
+    background-color: #352e2e;
   }
   
   body {
@@ -294,7 +348,7 @@ header,
   .title__photo--style {
     font-family: Roboto;
     font-weight: 900;
-    color: white;
+    color: $colorW;;
     margin-bottom: 30px;
     font-size: 44px;
     text-transform: uppercase;
@@ -377,7 +431,7 @@ header,
   
   .tasks__group {
     border: none;
-    background-color: white;
+    background-color: $colorW;;
   }
   
   .tasks__group--text {
@@ -523,7 +577,7 @@ header,
   }
   
   .slip__combining--name {
-    background-color: white;
+    background-color: $colorW;;
     padding: 24px;
     margin: 0 auto;
     width: auto;
@@ -629,7 +683,7 @@ header,
   }
   
   .gallery__card--name {
-    background-color: white;
+    background-color: $colorW;;
     padding: 30px;
   }
   
@@ -638,7 +692,7 @@ header,
   }
   
   .gallery__card--profession {
-    background-color: white;
+    background-color: $colorW;;
     text-align: center;
   }
   
@@ -679,7 +733,7 @@ header,
   
   .regular__customers--main {
     margin: 0 10px;
-    background-color: white;
+    background-color: $colorW;;
     border: 2px solid #AFB1B8;
     border-radius: 4px;
     -webkit-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -770,7 +824,7 @@ header,
     width: 43px;
     height: 43px;
     border-radius: 43px;
-    background-color: white;
+    background-color: $colorW;;
     -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -862,7 +916,7 @@ header,
   }
   
   .bottom__connected--text {
-    color: white;
+    color: $colorW;;
     Font: Roboto;
     height: 700;
   }
@@ -885,7 +939,7 @@ header,
   }
   
   .mailling__list--text {
-    color: white;
+    color: $colorW;;
     font-family: Roboto;
     font-size: 18px;
     font-style: normal;
@@ -920,7 +974,7 @@ header,
   }
   
   .mailling__list--signature {
-    color: white;
+    color: $colorW;;
     text-align: center;
   }
   
@@ -1205,6 +1259,6 @@ header,
   
   .consent__sending--text {
     font-size: 16px;
-    color: white;
+    color: $colorW;;
   }
   /*# sourceMappingURL=main.css.map */
