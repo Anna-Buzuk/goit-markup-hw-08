@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,AAAC,CACP,QAAQ,CAAE,QAAQ,CAClB,KAAK,CAAE,MAAM,CACb,MAAM,CAAE,MAAM,CACd,OAAO,CAAE,MAAM,CACf,kBAAkB,CAAE,UAAU,CACtB,UAAU,CAAE,UAAU,CAC/B",
+    "sources": [
+        "../scss/heder.scss"
+    ],
+    "names": [],
+    "file": "heder.min.css"
+}

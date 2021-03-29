@@ -1,0 +1,99 @@
+.base {
+    font-weight: 700;
+    text-align: center;
+    margin-top: 94px;
+    margin-bottom: 50px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    line-height: 42px;
+    letter-spacing: 0.03em;
+  }
+  
+  .base__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  
+  .base__card--photo {
+    margin-bottom: 94px;
+  }
+  
+  .base__card--application {
+    height: 70px;
+    width: 370px;
+    margin: 0 auto;
+    background: rgba(47, 48, 58, 0.8);
+    position: relative;
+    bottom: 89px;
+  }
+  
+  .base__card--applicationone {
+    height: 70px;
+    width: 370px;
+    margin: 0 auto;
+    background: rgba(47, 48, 58, 0.8);
+    position: relative;
+    bottom: 89px;
+    left: 15px;
+  }
+  
+  .base__card--caption {
+    font-family: Roboto;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: #FFFFFF;
+    position: relative;
+    top: 25px;
+  }
+  
+  .base__card--phototwo {
+    margin-left: 30px;
+  }
+  
+  /*container 5*/
+  .section__komanda {
+    background-color: #f5f4fa;
+    padding-bottom: 94px;
+  }
+  
+  .section__komanda--name {
+    font-weight: 700;
+    font-size: 36px;
+    padding-top: 94px;
+    text-align: center;
+    font-family: Roboto;
+  }
+  
+  .gallery__card {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 50px;
+  }
+  
+  .gallery__card--name {
+    background-color: white;
+    padding: 30px;
+  }
+  
+  .gallery__card--walk {
+    text-align: center;
+  }
+  
+  .gallery__card--profession {
+    background-color: white;
+    text-align: center;
+  }
+  
