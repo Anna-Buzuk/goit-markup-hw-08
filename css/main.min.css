@@ -1,28 +1,25 @@
-@import'utils/_variables';
-@import'utils/_heder';
-@import'utils/_boss';
-@import'utils/_title';
-@import'utils/_tasksslip';
-@import'utils/_basesekcion.scss';
-@import'utils/_regularsocial.scss';
-@import'utils/_mallingbackdrop.scss';
-@import'utils/_forminput.scss';
-  
+
 /*# sourceMappingURL=main.min.css.map */ 
 
+    
 .item__list,
 .item__list--position,
 .nav-st-portfolio,
 .item__envelope{
-    display: none;
-}     
- 
+visibility: hidden;
+}
 
-@media skreen and (min-width:0px){
+@media skreen and (min-width:418px){
+  header{
+    width: 480px;
+        height: 60px;
+  }
     .conteiner {
+
         margin: 0 auto;
         padding: 0 15px;
-        width: 418px;
+        width: 480px;
+        height: 60px;
     }
         
     .item__photo {
@@ -36,7 +33,7 @@
             margin-right: 93px;
           }
           
-         
+           
 }
 
 
@@ -59,10 +56,20 @@
 
   
   @media screen and (min-width:479px){
+
+  .item__list,
+  .item__list--position,
+  .nav-st-portfolio,
+  .item__envelope{
+   visibility: visible;
+} 
+
     .conteiner {
         margin: 0 auto;
         padding: 0 15px;
-        width: 690px;}
+        height: px;}
+
+
         .item {
         width: 100%;
         height: 80px;
